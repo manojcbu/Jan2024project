@@ -1,0 +1,45 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                script {
+                    git credentialsId: '85fcfc94-fb6a-4e91-b99f-2cc8f0a783bf',
+                        url: 'https://github.com/manojcbu/Jan2024project.git',
+                        branch: 'main'
+                }
+            }
+        }
+
+        stage('Build Docker') {
+            steps {
+                script {
+                    echo 'Building Docker Image'
+                    sh 'docker build -t manojbaws/janproj2024:v1 .'
+                }
+            }
+        }
+
+        stage('Push the artifacts') {
+            steps {
+                script {
+                    echo 'Logging into Docker Hub'
+                    sh 'docker login -u manojbaws -p Corei5@12345'
+                    echo 'Pushing to Repo'
+                    sh 'docker push manojbaws/janproj2024:v1'
+                }
+            }
+        }
+
+        stage('Start Docker Container') {
+            steps {
+                script {
+                    echo 'Starting Docker Container'
+                    sh 'docker run -d -p 8000:80 --name my-container manojbaws/janproj2024:v1'
+                }
+            }
+        }
+    }
+}
+
