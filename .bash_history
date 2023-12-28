@@ -56,3 +56,80 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ps -ef|grep jenkin
 cat cat /var/lib/jenkins/secrets/initialAdminPassword
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+jenkins
+ls -lrt
+history
+git --versio
+git --version
+ls -lrt
+docker --version
+docker login
+sudo usermod -aG docker jenkins
+ps -ef|grep jenkins
+ls -la /var/run/docker.sock
+sudo chmod -R 777  /var/run/docker.sock
+ls -la /var/run/docker.sock
+ls -lrt
+git --version
+ls -lrt
+git pull https://github.com/manojcbu/cicd-end-to-end.git
+git remote -v
+git init
+git remote -v
+git remote add origin  https://github.com/manojcbu/cicd-end-to-end.git
+git remote -v
+git pull https://github.com/manojcbu/cicd-end-to-end.git
+ls -lrt
+cat Dockerfile 
+vi Dockerfile 
+git status
+git add Dockerfile 
+git status
+git push remote origin
+git add .bash_history
+git add .bash*
+git add *
+git status
+git add *
+git status
+git add .cache/ .docker/ .jenkins/ .profile .profile .ssh/
+git status
+git add .sudo_as_admin_successful .viminfo
+git status
+git push origin main
+git remove origin main
+git remote remove origin main
+git remote remove main
+git remote remove https://github.com/manojcbu/cicd-end-to-end.git
+git remote remove --help
+git remote remove -help
+git remote remove
+git remote remove -v
+git remote rgit remote remove origin
+git remote remove origin
+git remote -v
+git remote add origin git@github.com:manojcbu/cicd-end-to-end.git
+git push origin main
+ssh-keygen -t ed25519 -C
+ssh-keygen -t ed25519 -C "manojbaws1@gmail.com"
+cat /home/ubuntu/.ssh/id_ed25519.pub
+ssh-add  /home/ubuntu/.ssh/id_rsa.pub
+cat /home/ubuntu/.ssh/id_rsa.pub
+git push origin main
+git remote -v
+git branch
+git checkout -b main
+git add .
+git commit -m "dockermodified"
+git push origin main
+ls -lrt
+vi Dockerfile 
+git add Dockerfile 
+git push origin main
+git remote -v
+git commit -m "second"
+git push origin main
+vi Dockerfile 
+git add Dockerfile 
+git commit -m "third"
+git push origin main
