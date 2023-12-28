@@ -10,11 +10,18 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1703716313,,"wq!"
+|2,0,1703781474,,"wq!"
+:q!
+|2,0,1703781335,,"q!"
 
 # Search String History (newest to oldest):
+? @$
+|2,1,1703781332,,"@$"
 
 # Expression History (newest to oldest):
 
@@ -25,45 +32,263 @@
 # Registers:
 
 # File marks:
-'0  8  50  ~/Dockerfile
-|4,48,8,50,1703716313,"~/Dockerfile"
-'1  7  10  ~/Dockerfile
-|4,49,7,10,1703716095,"~/Dockerfile"
-'2  7  10  ~/Dockerfile
-|4,50,7,10,1703716095,"~/Dockerfile"
-'3  8  50  ~/Dockerfile
-|4,51,8,50,1703715301,"~/Dockerfile"
-'4  8  50  ~/Dockerfile
-|4,52,8,50,1703715301,"~/Dockerfile"
-'5  8  50  ~/Dockerfile
-|4,53,8,50,1703715301,"~/Dockerfile"
+'0  64  13  ~/todos/templates/todos/index.html
+|4,48,64,13,1703781474,"~/todos/templates/todos/index.html"
+'1  8  0  ~/todos
+|4,49,8,0,1703781335,"~/todos"
+'2  9  0  ~/Dockerfile
+|4,50,9,0,1703780976,"~/Dockerfile"
+'3  9  0  ~/Dockerfile
+|4,51,9,0,1703778092,"~/Dockerfile"
+'4  6  10  ~/Dockerfile
+|4,52,6,10,1703777392,"~/Dockerfile"
+'5  6  10  ~/Dockerfile
+|4,53,6,10,1703777392,"~/Dockerfile"
+'6  6  10  ~/Dockerfile
+|4,54,6,10,1703777392,"~/Dockerfile"
+'7  6  10  ~/Dockerfile
+|4,55,6,10,1703777392,"~/Dockerfile"
+'8  9  5  ~/Dockerfile
+|4,56,9,5,1703777132,"~/Dockerfile"
+'9  9  5  ~/Dockerfile
+|4,57,9,5,1703777132,"~/Dockerfile"
 
 # Jumplist (newest first):
--'  8  50  ~/Dockerfile
-|4,39,8,50,1703716313,"~/Dockerfile"
--'  7  10  ~/Dockerfile
-|4,39,7,10,1703716302,"~/Dockerfile"
--'  7  10  ~/Dockerfile
-|4,39,7,10,1703716095,"~/Dockerfile"
--'  8  50  ~/Dockerfile
-|4,39,8,50,1703716086,"~/Dockerfile"
--'  8  50  ~/Dockerfile
-|4,39,8,50,1703715301,"~/Dockerfile"
--'  1  0  ~/Dockerfile
-|4,39,1,0,1703715287,"~/Dockerfile"
--'  1  0  ~/Dockerfile
-|4,39,1,0,1703715287,"~/Dockerfile"
--'  1  0  ~/Dockerfile
-|4,39,1,0,1703715287,"~/Dockerfile"
+-'  64  13  ~/todos/templates/todos/index.html
+|4,39,64,13,1703781474,"~/todos/templates/todos/index.html"
+-'  1  0  ~/todos/templates/todos/index.html
+|4,39,1,0,1703781449,"~/todos/templates/todos/index.html"
+-'  8  0  ~/todos
+|4,39,8,0,1703781335,"~/todos"
+-'  8  0  ~/todos
+|4,39,8,0,1703781335,"~/todos"
+-'  9  0  ~/Dockerfile
+|4,39,9,0,1703780976,"~/Dockerfile"
+-'  9  0  ~/Dockerfile
+|4,39,9,0,1703780976,"~/Dockerfile"
+-'  9  0  ~/Dockerfile
+|4,39,9,0,1703780976,"~/Dockerfile"
+-'  9  0  ~/Dockerfile
+|4,39,9,0,1703780976,"~/Dockerfile"
+-'  9  0  ~/Dockerfile
+|4,39,9,0,1703778092,"~/Dockerfile"
+-'  9  0  ~/Dockerfile
+|4,39,9,0,1703778092,"~/Dockerfile"
+-'  9  0  ~/Dockerfile
+|4,39,9,0,1703778092,"~/Dockerfile"
+-'  9  0  ~/Dockerfile
+|4,39,9,0,1703778092,"~/Dockerfile"
+-'  6  10  ~/Dockerfile
+|4,39,6,10,1703778083,"~/Dockerfile"
+-'  6  10  ~/Dockerfile
+|4,39,6,10,1703778083,"~/Dockerfile"
+-'  6  10  ~/Dockerfile
+|4,39,6,10,1703778083,"~/Dockerfile"
+-'  6  10  ~/Dockerfile
+|4,39,6,10,1703778083,"~/Dockerfile"
+-'  6  10  ~/Dockerfile
+|4,39,6,10,1703778083,"~/Dockerfile"
+-'  6  10  ~/Dockerfile
+|4,39,6,10,1703778083,"~/Dockerfile"
+-'  6  10  ~/Dockerfile
+|4,39,6,10,1703778083,"~/Dockerfile"
+-'  6  10  ~/Dockerfile
+|4,39,6,10,1703778083,"~/Dockerfile"
+-'  6  10  ~/Dockerfile
+|4,39,6,10,1703777392,"~/Dockerfile"
+-'  6  10  ~/Dockerfile
+|4,39,6,10,1703777392,"~/Dockerfile"
+-'  6  10  ~/Dockerfile
+|4,39,6,10,1703777392,"~/Dockerfile"
+-'  6  10  ~/Dockerfile
+|4,39,6,10,1703777392,"~/Dockerfile"
+-'  9  5  ~/Dockerfile
+|4,39,9,5,1703777358,"~/Dockerfile"
+-'  9  5  ~/Dockerfile
+|4,39,9,5,1703777358,"~/Dockerfile"
+-'  9  5  ~/Dockerfile
+|4,39,9,5,1703777358,"~/Dockerfile"
+-'  9  5  ~/Dockerfile
+|4,39,9,5,1703777358,"~/Dockerfile"
+-'  9  5  ~/Dockerfile
+|4,39,9,5,1703777132,"~/Dockerfile"
+-'  9  5  ~/Dockerfile
+|4,39,9,5,1703777132,"~/Dockerfile"
+-'  9  5  ~/Dockerfile
+|4,39,9,5,1703777132,"~/Dockerfile"
+-'  9  5  ~/Dockerfile
+|4,39,9,5,1703777132,"~/Dockerfile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  45  0  ~/JenkinsFile
+|4,39,45,0,1703729905,"~/JenkinsFile"
+-'  1  0  ~/JenkinsFile
+|4,39,1,0,1703729901,"~/JenkinsFile"
+-'  1  0  ~/JenkinsFile
+|4,39,1,0,1703729901,"~/JenkinsFile"
+-'  1  0  ~/JenkinsFile
+|4,39,1,0,1703729901,"~/JenkinsFile"
+-'  1  0  ~/JenkinsFile
+|4,39,1,0,1703729901,"~/JenkinsFile"
 
 # History of marks within files (newest to oldest):
 
+> ~/todos/templates/todos/index.html
+	*	1703781473	0
+	"	64	13
+	^	64	14
+	.	15	34
+	+	15	34
+
 > ~/Dockerfile
-	*	1703716312	0
-	"	8	50
-	^	8	51
-	.	8	50
+	*	1703780975	0
+	"	9	0
+	^	9	1
+	.	9	0
 	+	7	10
 	+	8	50
 	+	7	10
 	+	8	50
+	+	7	10
+	+	8	50
+	+	7	10
+	+	8	50
+	+	7	10
+	+	8	50
+	+	7	10
+	+	8	50
+	+	9	5
+	+	8	12
+	+	6	10
+	+	9	0
+
+> ~/JenkinsFile
+	*	1703729904	0
+	"	45	0
+	^	45	0
+	.	44	1
+	+	44	1

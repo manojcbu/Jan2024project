@@ -133,3 +133,48 @@ vi Dockerfile
 git add Dockerfile 
 git commit -m "third"
 git push origin main
+df -h
+cd /
+ls -lrt
+cd tmp
+ls -lrt
+cd ..
+cd /var
+ls -lrt
+cd log
+ls -lrt
+docker system prune
+docker container ls -a
+docker image ls
+docker system prune -a
+docker image ls
+clear
+ls -lrt
+cd 
+ls -lrt
+vi Dockerfile 
+git add Dockerfile
+git commit -m "Fina"
+git push origin main
+df -h
+docker ps -a
+docker images ls
+docker system prune -a
+vi Dockerfile 
+git add Dockerfile
+df -h
+git commit -m "Final"
+git push -u origin main
+vi JenkinsFile
+git add JenkinsFile 
+git commit "Fin"
+git commit -m "Fin"
+git push origin main
+docker ps -a
+df -h
+ls -lrt
+docker system prune
+docker system prune -a
+df -h
+docker ps
+df -h
